@@ -7,7 +7,6 @@ let response = await axios.get(
     "https://dog.ceo/api/breeds/image/random"
 )
 }
-
 console.log(response.data.results);
 console.log(response.data.results[0].question)
 console.log(response.data.results[0].correct_answer)
